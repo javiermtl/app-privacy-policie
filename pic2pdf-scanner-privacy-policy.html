@@ -41,6 +41,10 @@
     a {
       color: #0b57d0;
     }
+
+    ul {
+      padding-left: 24px;
+    }
   </style>
 </head>
 
@@ -74,7 +78,12 @@
 
     <p>
       The app may access images, photos, documents, and folders only when you choose to select them, capture them,
-      or save generated PDF files. This access is used only to provide the app’s core functionality.
+      open them, or save generated PDF files. This access is used only to provide the app’s core functionality.
+    </p>
+
+    <p>
+      Pic2PDF Scanner may collect anonymous app usage analytics through Firebase Analytics. This helps us understand
+      how the app is used, improve app quality, and make better decisions about future features.
     </p>
 
     <h2>3. Photos, Images, and PDF Files</h2>
@@ -88,6 +97,11 @@
       Pic2PDF Scanner does not upload your photos or generated PDF files to a server controlled by the developer.
       Files remain on your device unless you choose to share them using Android sharing options, such as email,
       messaging apps, cloud storage apps, or other installed applications.
+    </p>
+
+    <p>
+      The app does not use Firebase Analytics to upload photos, PDF files, file names, file paths, image paths,
+      document text, or document content.
     </p>
 
     <h2>4. Permissions Used by the App</h2>
@@ -106,7 +120,52 @@
       These permissions are used only to allow you to create, save, open, and share PDF files.
     </p>
 
-    <h2>5. How We Use Information</h2>
+    <h2>5. Firebase Analytics</h2>
+
+    <p>
+      Pic2PDF Scanner uses Firebase Analytics, a service provided by Google, to collect anonymous app usage information.
+      Firebase Analytics helps us understand general app usage, feature usage, and app performance so we can improve
+      the app.
+    </p>
+
+    <p>
+      Firebase Analytics may collect information such as:
+    </p>
+
+    <ul>
+      <li>App opens and sessions.</li>
+      <li>General app interactions.</li>
+      <li>Device and app information, such as app version, device type, operating system version, and language.</li>
+      <li>Approximate usage information, such as country or region.</li>
+      <li>Custom app events, such as when a PDF is created, when photos are selected, or when a PDF is shared.</li>
+    </ul>
+
+    <p>
+      Custom analytics events are designed to avoid personal data. The app may send anonymous event information such as:
+    </p>
+
+    <ul>
+      <li>Number of selected photos.</li>
+      <li>Number of pages in a generated PDF.</li>
+      <li>Selected PDF quality option.</li>
+      <li>Selected enhancement mode.</li>
+      <li>Whether watermark or page numbers were enabled.</li>
+      <li>General file size bucket, such as small, medium, or large.</li>
+      <li>Generic error type if PDF creation fails.</li>
+    </ul>
+
+    <p>
+      The app does not send Firebase Analytics any file names, image paths, file paths, PDF content, photo content,
+      document text, email addresses, or personal document information.
+    </p>
+
+    <p>
+      The app includes a setting called “Help improve the app with anonymous usage analytics.” If you turn this setting
+      off, custom analytics events are skipped and Firebase Analytics collection is disabled through the app’s analytics
+      controls.
+    </p>
+
+    <h2>6. How We Use Information</h2>
 
     <p>
       The app uses selected images and files only for the following purposes:
@@ -117,9 +176,11 @@
       <li>Applying selected options such as image enhancement, watermark, page numbers, or PDF quality.</li>
       <li>Saving generated PDF files to your device.</li>
       <li>Opening, renaming, deleting, or sharing PDFs created by the app.</li>
+      <li>Understanding anonymous app usage trends through Firebase Analytics.</li>
+      <li>Improving app quality, reliability, and future features.</li>
     </ul>
 
-    <h2>6. Data Sharing</h2>
+    <h2>7. Data Sharing</h2>
 
     <p>
       Pic2PDF Scanner does not sell, rent, or trade user data.
@@ -131,57 +192,73 @@
       by its own privacy policy.
     </p>
 
-    <h2>7. Third-Party Services</h2>
+    <p>
+      Firebase Analytics data is processed by Google to provide analytics services. You can learn more about Firebase
+      privacy and security from Google’s Firebase documentation.
+    </p>
+
+    <h2>8. Third-Party Services</h2>
 
     <p>
-      The current version of Pic2PDF Scanner does not require account login, analytics, advertising SDKs, or cloud
+      The app uses Firebase Analytics, provided by Google, for anonymous usage analytics.
+    </p>
+
+    <p>
+      The current version of Pic2PDF Scanner does not require account login, advertising SDKs, cloud backup, or cloud
       upload services.
     </p>
 
     <p>
-      If future versions add third-party services such as advertising, analytics, cloud backup, or crash reporting,
-      this Privacy Policy will be updated to describe those services and the data they may process.
+      If future versions add third-party services such as advertising, cloud backup, crash reporting, subscriptions,
+      or cloud file storage, this Privacy Policy will be updated to describe those services and the data they may
+      process.
     </p>
 
-    <h2>8. Data Retention and Deletion</h2>
+    <h2>9. Data Retention and Deletion</h2>
 
     <p>
-      Generated PDF files are stored on your device until you delete them. You can delete PDFs from inside the app
-      when this feature is available, or by using your device’s file manager.
-    </p>
-
-    <p>
-      If you uninstall the app, files stored in the app-specific storage area may be removed by Android. Files saved
-      to a user-selected folder may remain on your device until you delete them manually.
-    </p>
-
-    <h2>9. Security</h2>
-
-    <p>
-      Pic2PDF Scanner processes files locally on your device. The app uses Android system features such as file
-      picker, folder picker, and sharing intents to help protect access to your files.
+      Generated PDF files are stored on your device until you delete them. You can delete PDFs from inside the app when
+      this feature is available, or by using your device’s file manager.
     </p>
 
     <p>
-      No method of electronic storage is completely secure, but the app is designed to limit access only to the files
-      and folders selected by the user.
+      If you uninstall the app, files stored in the app-specific storage area may be removed by Android. Files saved to
+      a user-selected folder may remain on your device until you delete them manually.
     </p>
 
-    <h2>10. Children’s Privacy</h2>
+    <p>
+      Firebase Analytics data is retained according to Google’s Firebase and Google Analytics data retention practices
+      and settings. You can also disable anonymous analytics collection from the app settings when this option is
+      available.
+    </p>
+
+    <h2>10. Security</h2>
+
+    <p>
+      Pic2PDF Scanner processes photos and PDF files locally on your device. The app uses Android system features such
+      as photo picker, folder picker, and sharing intents to help protect access to your files.
+    </p>
+
+    <p>
+      No method of electronic storage or transmission is completely secure, but the app is designed to limit file access
+      only to the files and folders selected by the user.
+    </p>
+
+    <h2>11. Children’s Privacy</h2>
 
     <p>
       Pic2PDF Scanner is a general utility app and is not specifically directed to children under 13. The app does not
       knowingly collect personal information from children.
     </p>
 
-    <h2>11. Changes to This Privacy Policy</h2>
+    <h2>12. Changes to This Privacy Policy</h2>
 
     <p>
       This Privacy Policy may be updated from time to time. Any changes will be posted on this page with an updated
       “Last updated” date.
     </p>
 
-    <h2>12. Contact</h2>
+    <h2>13. Contact</h2>
 
     <p>
       If you have questions about this Privacy Policy or the app’s privacy practices, you can contact:
@@ -189,7 +266,7 @@
 
     <p>
       <strong>Javier Guerrero</strong><br />
-      Email: <a href="mailto:chinoto.bass@gmail.com">javierguerrero82@gmail.com</a>
+      Email: <a href="mailto:chinoto.bass@gmail.com">chinoto.bass@gmail.com</a>
     </p>
   </main>
 </body>
